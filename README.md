@@ -7,6 +7,9 @@
 * prompt typically has username@machinename working dir $/#
 * most of linux has bash which is a shell program.
 * Most Linux distributions remember the last 1000 commands by default
+* There will be multiple virtual terminals running behind the GUI curtain.
+* To access virtual terminal we have to press Ctrl+Alt+F3.to return back Alt+F2.
+* After going to virtual terminal it askes us to login from terminal.
 
 # $date
 * prints out day month date time year
