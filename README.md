@@ -53,5 +53,26 @@
 # $ls 
 * List directory contents
 
+# chapter3(exploring the system)
+# Facts
+* Computers, after all, only understand numbers and all data
+is converted to numeric representation.one of such mapping is ascii.windows word and linux libre office has more complex structures but notepad works with plainly 
+ascii values
+* config files has system settings and are stored in ascii format In addition, some of the actual programs
+that the system uses (called scripts) are stored in this format
+* less is more! previously there was a cmd named more but with adding new features it was made as less.so less is more.
+* a file permission thing starting with - is a file.staring with d is directory.if its l then its a symbolic link file.also known as softlink or symlink.
+* these symbolic links are used to sole problems in versioning.
+# file
+* determines the file type
+# ls 
+* ls /path/fora/directory :this prints out contents of the directory in the given path
+* ls ~/path/fora/directory :this prints out contents of the directory in the given path,along with componenets in current path
+* ls -lt :prints files of dir in long format and sorted by Time modified
+* ls -lt --reverse :prints files of dir in long format and sorted by Time modified in reverse order
+# less
+* used to read text in a file.arrows to navigate contents displayed by less.
+* less /characters :Search forward to the next occurrence of characters
+* less n :Search for the next occurrence of the previous search
 
 
